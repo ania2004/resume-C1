@@ -1,0 +1,35 @@
+
+
+body {
+   background-color: deepskyblue;
+   color: white;
+   font-family: sans-serif;
+}
+
+section {
+    background-color: white;
+}
+
+#profil {
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+    border: 10px solid teal;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#profil:hover {
+    background-color: gold;
+    color: darkblue;
+    border-radius: 25px;
+    box-shadow: 15px 15px white;
+}
+
+#edukacja {
+    color: black;
+}
+
+.test {
+    background-color: darkblue;
+}

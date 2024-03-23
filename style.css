@@ -8,23 +8,40 @@ body {
 
 section {
     background-color: white;
+    position: relative;
+    display: none;
+    /* min-height: 150px; */
 }
 
 #profil {
     background-color: red;
-    margin: 50px;
-    padding: 50px;
-    border: 10px solid teal;
+    display: block;
+    /* margin: 50px;
+    padding: 50px; */
+    border: 10px solid gold;
     transition: 1s;
-    cursor: pointer;
+    position: relative;
+    height: 100px;
+    overflow: auto;
 }
 
-#profil:hover {
+section h2 {
+    color: #dddddd88;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#profil p {
+    z-index: 2;
+}
+
+/* #profil:hover {
     background-color: gold;
     color: darkblue;
     border-radius: 25px;
     box-shadow: 15px 15px white;
-}
+} */
 
 #edukacja {
     color: black;
